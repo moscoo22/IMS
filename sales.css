@@ -8,7 +8,7 @@
 }
 
 body{
-    background: rgb(178, 161, 182);
+    background: #fec107;
     padding: 0 10px;
 }
 h1{
@@ -31,7 +31,7 @@ h1{
     font-size: 24px;
     font-weight: 700; 
     margin-bottom: 10px;
-    color: #297eec;
+    color: #fec107;
     text-transform: uppercase;
     text-align: center;
 }
@@ -111,7 +111,7 @@ h1{
 }
 .wrapper1 .form .input_field .btn1 {
     width: 100%;
-    background: #6953b8;
+    background: #fec107;
     border: 0;
     padding: 8px 8px;
     color: rgb(255, 255, 255);
