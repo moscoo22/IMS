@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: rgb(178, 161, 182);
+    padding: 0 10px;
+}
+h1{
+    color: #fff;
+    margin-top: 100px;
+    padding: 20px;
+    text-align: center;
+    }
+
+.wrapper{
+    max-width: 500px;
+    width: 100%;
+    background: #fff;
+    margin-left: 420px;
+    padding: 20px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
+}
+
+.wrapper .title {
+    font-size: 24px;
+    font-weight: 700; 
+    margin-bottom: 10px;
+    color: #297eec;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.wrapper .form {
+    width: 100%;
+}
+
+.wrapper .form .input_field{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.wrapper .form .input_field i{
+    position: absolute;
+    margin-left: 10px;
+}
+
+::placeholder {
+    color: rgb(137, 131, 143);
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+.wrapper .form .input_field .input{
+    width: 100%;
+    outline: none;
+    border: 1px solid #7fb6fd;
+    font-size: 15px;
+    padding: 8px 30px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.wrapper .form .input_field .btn {
+    width: 100%;
+    background: #297eec;
+    border: 0;
+    padding: 8px 10px;
+    color: white;
+    font-size: 25px;
+    margin-top: 25px;
+    float: right;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+}
+
+.wrapper .form .input_field .btn:hover{
+    background: rgb(118, 118, 145);
+}
+
+.wrapper .form .input_field .input:focus{
+    border: 1px solid #bdc010;
+}
+
+.wrapper .form a{
+    text-decoration: none;
+    float: right;
+    color: red;
+    font-size: 15px;
+}
+
+.wrapper .form a:hover{
+    color: rgb(112, 112, 202);
+}
+
+/*Admin page stylling */
+.wrapper1{
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    background: #fff;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
+
+}
+.wrapper1 .form .input_field .btn1 {
+    width: 100%;
+    background: #6953b8;
+    border: 0;
+    padding: 8px 8px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 4px;
+    outline: none;
+}
+
+.wrapper1 .form .input_field .btn1:hover{
+    background: rgb(118, 118, 145);
+}
+
+
+P{
+    margin-top: 50px;
+    color: white;
+    font-weight: 10px;
+}
+
+h2{
+    color: #fff;
+    text-align: center;
+    }
