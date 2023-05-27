@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;;
+}
+
+body{
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+td img{
+    width: 36px;
+    height: 36px;
+    margin-right: 5px;
+    border-radius: 50%;
+    border: 1px solid #fec107;
+
+    vertical-align: middle;
+}
+
+table, thead, td {
+    padding: 15px;
+    border: 1px solid #fec107;
+}
+
+main.table{
+    width: 700px;
+    height: 500px;
+}
