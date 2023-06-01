@@ -4,79 +4,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/style2.css"><title>List of Items</title>
+    <link rel="stylesheet" href="styles/style3.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Sales Page</title>
 </head>
 <body>
-    <main class="table">
-        <section class="table_header">
-            <h1>Items in the Store</h1>
-        </section>
+   
+
+    <main class="table1">
+        <div class="wrapper">
+            <p>Welcome SalesPerson <input type="submit" value="Logout" class="btn"></p>
+            <input type="text" placeholder="Search" class="searchbox"><input type="submit" value="Add" class="btn"><input type="submit" value="Remove" class="btn">
+        </div><br>
         <section class="table_body">
-            <table>
+            <table class="table1">
                 <thead>
                     <tr>
                         <th>ID</th>
                         <th>Item Name</th>
-                        <th>Qty Left</th>
+                        <th>Qty</th>
                         <th>Unit Price</th>
-                        <th colspan="2">Action</th>
+                        <th>Total</th>
+                        <th>Action</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <td>001</td>
-                        <td><img src="img/kings.jpeg">Vegetable Oil</td>
-                        <td>200</td>
+                        <td>Vegetable Oil</td>
+                        <td>2</td>
                         <td>100</td>
+                        <td>200</td>
                         <td>
-                            <button class="btn"><i class="fa fa-edit"></i></button>
                             <button class="btn"><i class="fa fa-trash"></i></button>
                         </td>
                     </tr>
                     <tr>
                         <td>002</td>
-                        <td><img src="img/sharwama.jpg">Sharwama</td>
-                        <td>200</td>
+                        <td>Sharwama</td>
+                        <td>2</td>
                         <td>100</td>
+                        <td>200</td>
                         <td>
-                            <button class="btn"><i class="fa fa-edit"></i></button>
                             <button class="btn"><i class="fa fa-trash"></i></button>
                         </td>
                     </tr>
                     <tr>
                         <td>003</td>
-                        <td><img src="img/burgar.jpg">Burgar</td>
-                        <td>200</td>
+                        <td>Burgar</td>
+                        <td>2</td>
                         <td>100</td>
+                        <td>200</td>
                         <td>
-                            <button class="btn"><i class="fa fa-edit"></i></button>
                             <button class="btn"><i class="fa fa-trash"></i></button>
                         </td>
                     </tr>
                     <tr>
                         <td>004</td>
-                        <td><img src="img/egg.jpg">Egg</td>
-                        <td>200</td>
+                        <td>Egg</td>
+                        <td>2</td>
                         <td>100</td>
+                        <td>200</td>
                         <td>
-                            <button class="btn"><i class="fa fa-edit"></i></button>
                             <button class="btn"><i class="fa fa-trash"></i></button>
                         </td>
                     </tr>
                     <tr>
                         <td>005</td>
-                        <td><img src="img/bread.jpg">Bread</td>
-                        <td>200</td>
+                        <td>Bread</td>
+                        <td>2</td>
                         <td>100</td>
+                        <td>200</td>
                         <td>
-                            <button class="btn"><i class="fa fa-edit"></i></button>
                             <button class="btn"><i class="fa fa-trash"></i></button>
                         </td>
                     </tr>
                 </tbody>
+                <thead>
+                    <tr>
+                        <th colspan="4">TOTAL</th>
+                        <th colspan="2">1000</th>
+                    </tr>
+                </thead>
+                <td colspan="6">
+                    <input type="submit" value="MARK AS SOLD" class="btn3">
+                </td>
             </table>
         </section>
+
     </main>
 </body>
 </html>

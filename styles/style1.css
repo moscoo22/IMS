@@ -22,7 +22,7 @@ h1{
     max-width: 500px;
     width: 100%;
     background: #fff;
-    margin-left: 420px;
+    margin: auto;
     padding: 20px;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
 }
@@ -100,18 +100,28 @@ h1{
     color: rgb(112, 112, 202);
 }
 
+@media screen and (max-width:500px){
+    .wrapper{
+        max-width: 300px;
+        width: 100%;
+        background: #aa2626;
+        margin: auto;
+        box-sizing: border-box;
+    }
+}
+
 /*Admin page stylling */
 .wrapper1{
-    max-width: 1000px;
+    max-width: 500px;
     width: 100%;
     margin: auto;
-    background: #fff;
     box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
+    box-sizing: border-box;
 
 }
 .wrapper1 .form .input_field .btn1 {
     width: 100%;
-    background: #fec107;
+    background: #7e620e;
     border: 0;
     padding: 8px 8px;
     color: rgb(255, 255, 255);
@@ -120,6 +130,7 @@ h1{
     cursor: pointer;
     border-radius: 4px;
     outline: none;
+    box-sizing: border-box;
 }
 
 .wrapper1 .form .input_field .btn1:hover{
@@ -137,3 +148,15 @@ h2{
     color: #fff;
     text-align: center;
     }
+
+    @media screen and (max-width:500px){
+        .wrapper1 .form .input_field .btn1 {
+            width: 100%;
+            background: #ce9a00;
+            margin: 2px;
+            border-radius: 8px;
+            font-size: 20px;
+            
+        }
+    }
+    
